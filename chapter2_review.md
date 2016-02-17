@@ -32,19 +32,19 @@ The execution context of a process includes all of the information of the proces
 
 ## 6. List and briefly explain five storage management responsibilities of a typical OS.
 
-Process isolation:
+PROCESS ISOLATION:
 Process isolation in operating systems is the separation of different processes in order to prevent them from accessing memory space of other processes. This concept helps to improve security by restricting the memory those programs can use.
 
-Automatic allocation and management:
+AUTOMATIC ALLOCATION AND MANAGEMENT:
 Automatic allocation and management is a technique used in operating systems that manages the allocation and deallocaton of memory. That mean that a programmer is free from writing performance management tasks while developing an application. 
 
-Support of modular programming:
+SUPPORT OF MODULAR PROGRAMMING:
 This type of storage management technique enables the programmer to define program modules, and to create, destroy and alter the sizes of modules.
 
-Protection and access control:
+PROTECTION AND ACCESS CONTROL:
 Protection and access control is the process of sharing memory that is advantageous when sharing needed by particular application, which threatens the integrity of programs.
 
-Long term storage:
+LONG TERM STOREGE:
 Long term storage is a process where memory is stored for long time even when computer is switched off.
 
 ## 7. Explain the distinction between a real address and a virtual address.
@@ -85,13 +85,13 @@ Many-to-Many: Many user level thread points to many kernel level threads.
 
 ## 11. List the key design issues for an SMP operating system.
 
-Simultaneous concurrent processes or threads: 
+SIMULTANEOUS CONCURRENT PROCESSES OR THREADS 
 Kernel functions need to be concurrent to allow several processors to execute the same code simultaneously.
-Scheduling: 
+SCHEDULING
 Scheduling efficiency should be improved by avoiding conflicts as every processor does that.
-Synchronization: 
+SYNCHRONIZATION
 Multiple processors provide potential access to shared address space or shared resources. So, care must be taken to provide synchronization between them.
-Memory Management: 
+MEMORY MANAGEMENT
 Memory management, a functionality of operating system manages primary memory. This functionality keeps track memory locations. It has the ability to decide which processes to allocate memory and tracking of that processes to unallocated memory when they are executed.
-Reliability and fault tolerance:
+RELIABILITY AND FUALT TOLERANCE:
 Reliable/fault tolerance deals with functionality of operating system techniques and it should be prepares in such a way that the system must have the ability to maintain normal operations despite the occurrence of failures.
