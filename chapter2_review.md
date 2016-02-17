@@ -87,11 +87,15 @@ Many-to-Many: Many user level thread points to many kernel level threads.
 
 SIMULTANEOUS CONCURRENT PROCESSES OR THREADS 
 Kernel functions need to be concurrent to allow several processors to execute the same code simultaneously.
+
 SCHEDULING
 Scheduling efficiency should be improved by avoiding conflicts as every processor does that.
+
 SYNCHRONIZATION
 Multiple processors provide potential access to shared address space or shared resources. So, care must be taken to provide synchronization between them.
+
 MEMORY MANAGEMENT
 Memory management, a functionality of operating system manages primary memory. This functionality keeps track memory locations. It has the ability to decide which processes to allocate memory and tracking of that processes to unallocated memory when they are executed.
+
 RELIABILITY AND FUALT TOLERANCE:
 Reliable/fault tolerance deals with functionality of operating system techniques and it should be prepares in such a way that the system must have the ability to maintain normal operations despite the occurrence of failures.
