@@ -57,10 +57,7 @@ A virtual address is the address of something stored in the virtual memory. The 
 Round robin is one of the scheduling algorithms used by employed by processes in operating systems. In this scheduling technique, each process is provided a fixed time to execute called quantam. Once the process finished executing for given quantam, the execution is done on the process next in line and this process is repeated until all the processes are executed.
 
 For example,
-Arrival time 	Processes	Burst time
-0	              1	        3
-1	              2	        2
-2	              3     	  1
+arrival time=(0,1,2) processes=(1,2,3) burst time=(3,2,1) for three processes
 
 Quantam = 2
 Here quantam values is 2, that means each process is allocated a fixed time of 2 seconds and then the next process is executed.
