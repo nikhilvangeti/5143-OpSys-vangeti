@@ -1,7 +1,7 @@
 # Chapter 3 Review Questions
-Name: Nikhil Vangeti
-Course: 5143 Operating Systems
-Date: 02 Mar 2016
+ Name: Nikhil Vangeti
+ Course: 5143 Operating Systems
+ Date: 02 Mar 2016
 
 ## 3.4 What does it mean to preempt a process?
 
